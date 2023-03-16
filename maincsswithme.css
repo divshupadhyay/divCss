@@ -1,0 +1,802 @@
+/* 
+    CSS By Divesh Upadhyay (Happy)
+    Instagram: https://www.instagram.com/divshupadhyay/ 
+    Twitter: https://twitter.com/divshupadhyay 
+    Linkedin: https://www.linkedin.com/in/diveshupadhyay/	
+    */
+
+
+:root {
+    --tomato: tomato;
+    --lime: lime;
+    --shadow: #333;
+    --wheat: wheat;
+    --white: #fff;
+    --gray: gray;
+    --dark: black;
+    --grass: #567d46;
+    --orange: orange;
+    --red: red;
+    --blue: blue;
+    --lightblue: DodgerBlue;
+    --lightgreen: MediumSeaGreen;
+    --smoke: whitesmoke;
+    --yellow: yellow;
+    --green: green;
+    --pink: pink;
+    --violet: violet;
+
+    --container-m: 5px;
+    --container-p: 5px;
+    --1: 1%;
+    --2: 2%;
+    --3: 3%;
+    --4: 4%;
+    --5: 5%;
+    --6: 6%;
+    --7: 7%;
+    --8: 8%;
+    --9: 9%;
+    --10: 10%;
+    --circle: 50%;
+    --lg-1: 1em;
+    --lg-2: 2em;
+    --lg-3: 3em;
+    --shadow-0: 0px 0px 2px var(--shadow);
+    --shadow-1: 0px 0px 5px var(--shadow);
+    --shadow-2: 0px 0px 10px var(--shadow);
+    --shadow-3: 0px 0px 15px var(--shadow);
+}
+
+/* text Color */
+
+.txt-tomato {
+    color: var(--tomato);
+}
+
+.txt-lime {
+    color: var(--lime);
+}
+
+.txt-shadow {
+    color: var(--shadow);
+}
+
+.txt-wheat {
+    color: var(--wheat);
+}
+
+.txt-default {
+    color: var(--white);
+}
+
+.txt-gray {
+    color: var(--gray);
+}
+
+.txt-dark {
+    color: var(--dark);
+}
+
+.txt-orange {
+    color: var(--orange);
+}
+
+.txt-grass {
+    color: var(--grass);
+}
+
+.txt-red {
+    color: var(--red);
+}
+
+.txt-smoke {
+    color: var(--smoke);
+}
+
+.txt-blue {
+    color: var(--blue);
+}
+
+.txt-lightblue {
+    color: var(--lightblue);
+}
+
+.txt-lightgreen {
+    color: var(--lightgreen);
+}
+
+.txt-yellow {
+    color: var(--yellow);
+}
+
+.txt-green {
+    color: var(--green);
+}
+
+.txt-pink {
+    color: var(--pink);
+}
+
+.txt-violet {
+    color: var(--violet);
+}
+
+/* text Hover Color */
+
+.txt-hover-transparent:hover {
+    color: transparent;
+}
+
+.txt-hover-tomato:hover {
+    color: var(--tomato);
+}
+
+.txt-hover-lime:hover {
+    color: var(--lime);
+}
+
+.txt-hover-shadow:hover {
+    color: var(--shadow);
+}
+
+.txt-hover-wheat:hover {
+    color: var(--wheat);
+}
+
+.txt-hover-default:hover {
+    color: var(--white);
+}
+
+.txt-hover-gray:hover {
+    color: var(--gray);
+}
+
+.txt-hover-dark:hover {
+    color: var(--dark);
+}
+
+.txt-hover-orange:hover {
+    color: var(--orange);
+}
+
+.txt-hover-grass:hover {
+    color: var(--grass);
+}
+
+.txt-hover-red:hover {
+    color: var(--red);
+}
+
+.txt-hover-smoke:hover {
+    color: var(--smoke);
+}
+
+.txt-hover-blue:hover {
+    color: var(--blue);
+}
+
+.txt-hover-lightblue:hover {
+    color: var(--lightblue);
+}
+
+.txt-hover-lightgreen:hover {
+    color: var(--lightgreen);
+}
+
+.txt-hover-yellow:hover {
+    color: var(--yellow);
+}
+
+.txt-hover-green:hover {
+    color: var(--green);
+}
+
+.txt-hover-pink:hover {
+    color: var(--pink);
+}
+
+.txt-hover-violet:hover {
+    color: var(--violet);
+}
+
+
+/* text-center */
+.txt-center {
+    text-align: center;
+}
+
+.txt-left {
+    text-align: left;
+    float: left;
+}
+
+.txt-right {
+    text-align: right;
+    float: right;
+}
+
+/* text font family */
+.txt-cursive {
+    font-family: cursive;
+}
+
+.txt-monospace {
+    font-family: monospace;
+}
+
+/* text italic/bold */
+.txt-bold {
+    font-weight: bold;
+}
+
+.txt-italic {
+    font-style: italic;
+}
+
+
+/* Background Color */
+
+.bg-tomato {
+    background: var(--tomato);
+}
+
+.bg-lime {
+    background: var(--lime);
+}
+
+.bg-shadow {
+    background: var(--shadow);
+}
+
+.bg-wheat {
+    background: var(--wheat);
+}
+
+.bg-default {
+    background: var(--white);
+}
+
+.bg-gray {
+    background: var(--gray);
+}
+
+.bg-dark {
+    background: var(--dark);
+}
+
+.bg-grass {
+    background: var(--grass);
+}
+
+.bg-orange {
+    background: var(--orange);
+}
+
+.bg-red {
+    background: var(--red);
+}
+
+.bg-smoke {
+    background: var(--smoke);
+}
+
+.bg-blue {
+    background: var(--blue);
+}
+
+.bg-lightblue {
+    background: var(--lightblue);
+}
+
+.bg-lightgreen {
+    background: var(--lightgreen);
+}
+
+.bg-yellow {
+    background: var(--yellow);
+}
+
+.bg-green {
+    background: var(--green);
+}
+
+.bg-pink {
+    background: var(--pink);
+}
+
+.bg-violet {
+    background: var(--violet);
+}
+
+/* bg hover */
+.bg-hover-green:hover {
+    background: var(--green);
+}
+
+.bg-hover-tomato:hover {
+    background: var(--tomato);
+}
+
+.bg-hover-lime:hover {
+    background: var(--lime);
+}
+
+.bg-hover-shadow:hover {
+    background: var(--shadow);
+}
+
+.bg-hover-wheat:hover {
+    background: var(--wheat);
+}
+
+.bg-hover-white:hover {
+    background: var(--white);
+}
+
+.bg-hover-gray:hover {
+    background: var(--gray);
+}
+
+.bg-hover-dark:hover {
+    background: var(--dark);
+}
+
+.bg-hover-grass:hover {
+    background: var(--grass);
+}
+
+.bg-hover-orange:hover {
+    background: var(--orange);
+}
+
+.bg-hover-red:hover {
+    background: var(--red);
+}
+
+.bg-hover-blue:hover {
+    background: var(--blue);
+}
+
+.bg-hover-lightblue:hover {
+    background: var(--lightblue);
+}
+
+.bg-hover-lightgreen:hover {
+    background: var(--lightgreen);
+}
+
+.bg-hover-smoke:hover {
+    background: var(--smoke);
+}
+
+.bg-hover-yellow:hover {
+    background: var(--yellow);
+}
+
+.bg-hover-pink:hover {
+    background: var(--pink);
+}
+
+.bg-hover-violet:hover {
+    background: var(--violet);
+}
+
+.bg-hover-transparent:hover {
+    background: transparent;
+}
+
+
+/* border */
+.border {
+    border: solid var(--dark);
+}
+
+.border-dark {
+    border: solid var(--dark);
+}
+
+.border-white {
+    border: solid var(--white);
+}
+
+.border-tomato {
+    border: solid var(--tomato);
+}
+
+.border-lime {
+    border: solid var(--lime);
+}
+
+.border-shadow {
+    border: solid var(--shadow);
+}
+
+.border-wheat {
+    border: solid var(--wheat);
+}
+
+.border-gray {
+    border: solid var(--gray);
+}
+
+.border-grass {
+    border: solid var(--grass);
+}
+
+.border-orange {
+    border: solid var(--orange);
+}
+
+.border-red {
+    border: solid var(--red);
+}
+
+.border-blue {
+    border: solid var(--blue);
+}
+
+.border-lightblue {
+    border: solid var(--lightblue);
+}
+
+.border-lightgreen {
+    border: solid var(--lightgreen);
+}
+
+.border-smoke {
+    border: solid var(--smoke);
+}
+
+.border-yellow {
+    border: solid var(--yellow);
+}
+
+.border-green {
+    border: solid var(--green);
+}
+
+.border-pink {
+    border: solid var(--pink);
+}
+
+.border-violet {
+    border: solid var(--violet);
+}
+
+/* Border-radius */
+.border-r-sm {
+    border-radius: 5px;
+}
+
+.border-r-md {
+    border-radius: 10px;
+}
+
+.border-r-lg {
+    border-radius: 20px;
+}
+
+.border-r-1 {
+    border-radius: var(--2);
+}
+
+.border-r-2 {
+    border-radius: var(--4);
+}
+
+.border-r-3 {
+    border-radius: var(--6);
+}
+
+.border-r-4 {
+    border-radius: var(--8);
+}
+
+.border-r-5 {
+    border-radius: var(--10);
+}
+
+.circle {
+    border-radius: var(--circle);
+}
+
+.circle-hover:hover {
+    border-radius: var(--circle);
+}
+
+/* Container */
+.container {
+    height: auto;
+    margin: var(--container-m);
+    padding: var(--container-p);
+    /* display: block; */
+}
+
+.container-dark {
+    height: auto;
+    background: var(--dark);
+    margin: var(--container-m);
+    padding: var(--container-p);
+}
+
+/* fixed Position */
+.fixed {
+    position: fixed;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+}
+
+.fixed-right {
+    position: fixed;
+    right: 0;
+}
+
+.fixed-left {
+    position: fixed;
+    left: 0;
+}
+
+
+/* Display */
+
+.flex {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.grid {
+    display: grid;
+}
+
+/* heading element */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+font-family: cursive, sans-serif;
+}
+
+h1,
+.h1 {
+    font-size: 36px;
+}
+
+h2,
+.h2 {
+    font-size: 30px;
+}
+
+h3,
+.h3 {
+    font-size: 24px;
+}
+
+h4,
+.h4 {
+    font-size: 20px;
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+}
+
+/* margin */
+.m-auto {
+    margin: auto;
+}
+
+.m-1 {
+    margin: var(--1);
+}
+
+.m-2 {
+    margin: var(--2);
+}
+
+.m-3 {
+    margin: var(--3);
+}
+
+.m-4 {
+    margin: var(--4);
+}
+
+.m-5 {
+    margin: var(--5);
+}
+
+.m-6 {
+    margin: var(--6);
+}
+
+.m-7 {
+    margin: var(--7);
+}
+
+.m-8 {
+    margin: var(--8);
+}
+
+.m-9 {
+    margin: var(--9);
+}
+
+.m-10 {
+    margin: var(--10);
+}
+
+.m-sh-1 {
+    margin: 2px;
+}
+
+.m-sh-2 {
+    margin: 5px;
+}
+
+.m-sh-3 {
+    margin: 10px;
+}
+
+/* margin large */
+.m-lg-1 {
+    margin: var(--lg-1);
+}
+
+.m-lg-2 {
+    margin: var(--lg-2);
+}
+
+.m-lg-3 {
+    margin: var(--lg-3);
+}
+
+/* Padding */
+.p-1 {
+    padding: var(--1);
+}
+
+.p-2 {
+    padding: var(--2);
+}
+
+.p-3 {
+    padding: var(--3);
+}
+
+.p-4 {
+    padding: var(--4);
+}
+
+.p-5 {
+    padding: var(--5);
+}
+
+.p-6 {
+    padding: var(--6);
+}
+
+.p-7 {
+    padding: var(--7);
+}
+
+.p-8 {
+    padding: var(--8);
+}
+
+.p-9 {
+    padding: var(--9);
+}
+
+.p-10 {
+    padding: var(--10);
+}
+
+/* padding short */
+.p-sh-1 {
+    padding: 2px;
+}
+
+.p-sh-2 {
+    padding: 5px;
+}
+
+.p-sh-3 {
+    padding: 10px;
+}
+
+/* padding Large */
+.p-lg-1 {
+    padding: var(--lg-1);
+}
+
+.p-lg-2 {
+    padding: var(--lg-2);
+}
+
+.p-lg-3 {
+    padding: var(--lg-3);
+}
+
+/* Quotes */
+.quote{
+    font-style: oblique;
+}
+.quote::before{
+    content: '"';
+}
+.quote::after{
+    content: '"';
+}
+
+
+/* shadow */
+.shadow {
+    box-shadow: var(--shadow-0);
+}
+
+.shadow-1 {
+    box-shadow: var(--shadow-1);
+}
+
+.shadow-2 {
+    box-shadow: var(--shadow-2);
+}
+
+.shadow-3 {
+    box-shadow: var(--shadow-3);
+}
+
+/* shadow on hover */
+.shadow-hover:hover {
+    box-shadow: var(--shadow-0);
+}
+
+.shadow-hover-1:hover {
+    box-shadow: var(--shadow-1);
+}
+
+.shadow-hover-2:hover {
+    box-shadow: var(--shadow-2);
+}
+
+.shadow-hover-3:hover {
+    box-shadow: var(--shadow-3);
+}
+
+/* sticky position*/
+.sticky-top{
+    position: sticky;
+    top: 0;
+}
+.sticky-bottom{
+    position: sticky;
+    bottom: 0;
+}
+.sticky-left{
+    position: sticky;
+    left: 0;
+}
+.sticky-right{
+    position: sticky;
+    right: 0;
+}
